@@ -1,0 +1,239 @@
+/*---------------------------
+
+LEFT-TOP-NAVIGATION-MENU-START
+
+---------------------------*/
+
+#content-wrapper {
+  margin-left: 250px;
+  max-width: none;
+}
+
+.site-content-title {
+  max-width: none;
+}
+.live-search-list {
+   padding-left:$spacing-0;
+}
+
+/*---------------------------
+
+LEFT-TOP-NAVIGATION-MENU-END
+
+---------------------------*/
+body{
+  /*----- NAV LIGHT COLOR -----*/
+  &.navigation-dark{
+    #nav{
+      background: $navigation-dark-background-color;
+      > ul{
+        > li{
+          > a{
+            color: $secondary-text-color;
+          }
+        }
+      }
+      li{
+        ul{
+          background: $navigation-dark-background-color;
+          li{
+            a{
+              color: $secondary-text-color;
+            }
+            &.active{
+              > a {
+                background-color: rgba($primary-hover-text-color, 0.2);
+              }
+            }
+          }
+        }
+      }
+      .sidebar-search {
+        input{
+          background: $navigation-dark-background-color;
+          border-color: $primary-text-color;
+        }
+      }
+    }
+    #nav-mega {
+      ul {
+        li {
+          &.dropdown-mega-item {
+            .dropdown-mega-menu {
+              .mega-menu-container{
+                background: $navigation-dark-background-color url("../../../../assets/global/image/menuimg_dark.png") no-repeat scroll right center !important;
+                .mega-menu-title{
+                  color: $secondary-text-color;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #nav-mega {
+      li {
+        ul {
+          a {
+            color: $secondary-text-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*----- START-RESPONSIVE-----*/
+@media (max-width: $media-lg-width) {
+  .header-left {
+    width: 218px;
+  }
+  #nav {
+    > ul {
+      > li {
+        > a {
+          padding: $spacing-0 $spacing-10 - 2;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $media-md-width) {
+  #content-wrapper{
+    margin-left: 0;
+  }
+  .header-left {
+    width: 200px;
+  }
+  #nav {
+    > ul {
+      > li {
+        > a {
+          padding: $spacing-0 $spacing-20 $spacing-0 $spacing-10;
+        }
+      }
+    }
+  }
+  .animated-arrow {
+    margin-left: 135px;
+  }
+  .logo {
+    margin: $spacing-10 $spacing-0 $spacing-10 $spacing-15;
+  }
+  .user-dropdown {
+    margin: $spacing-5 + 2 $spacing-15 $spacing-0 $spacing-10;
+  }
+  #nav-mega{
+    margin-left:-25px;
+  }
+}
+
+@media (max-width: $media-sm-width) {
+  .animated-arrow {
+    margin-left: $spacing-20 - 1;
+    padding-top: $spacing-15 -1;
+  }
+  .site-content-title {
+    .breadcrumb {
+      padding: $spacing-0 $spacing-15;
+    }
+    .content-title-main {
+      padding-left: $spacing-0;
+    }
+  }
+
+  .wrapper {
+    #header {
+      height: 105px;
+    }
+  }
+  #header {
+    .right-icon {
+      margin-top:$spacing-0;
+    }
+  }
+
+  #main {
+    padding-top: $spacing-105;
+  }
+  #header {
+    .user-dropdown {
+      margin: $spacing-0 $spacing-30 $spacing-0 $spacing-10;
+    }
+  }
+
+  .header-left {
+    width: 100%;
+  }
+  #header {
+    .header-right {
+      background: $header-right-gray-color;
+      float: $left-division;
+      padding: $spacing-10 $spacing-0;
+      text-align: $text-center;
+      width: 100%;
+    }
+    .header-inner-right {
+      float: $right-division;
+    }
+  }
+
+  .logo {
+    text-align: $text-center;
+    width:100%;
+  }
+  .left-menu-toggle, .right-menu-toggle {
+    float: $left-division !important;
+    padding-left:$spacing-10;
+    margin-bottom: -61px;
+    padding-bottom: $spacing-5 + 2;
+  }
+  #sidebar {
+    top: $spacing-105;
+  }
+  .messagetoggle, .dropdown-menu.userChat {
+    right: $spacing-30 + 3;
+    left: auto;
+    top: $spacing-50 + 2;
+  }
+  .user-dropdown {
+    .dropdown-menu {
+      margin-top: $spacing-10 - 1;
+      right:3px;
+    }
+  }
+  #nav-mega {
+    left: 45px;
+    top:-51px;
+  }
+  #nav-mega {
+    > ul {
+      > li {
+        > a {
+          line-height:51px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $media-xs-width) {
+  #nav-mega {
+    left: 30px;
+  }
+  .header-left {
+    width: 100%;
+  }
+  .header-right {
+    float: $left-division;
+    padding: $spacing-10 $spacing-0;
+    text-align: $text-center;
+    width: 100%;
+  }
+  .left-menu-toggle, .right-menu-toggle {
+    padding-left: $spacing-0;
+  }
+}
+
+/*----- END-RESPONSIVE-----*/

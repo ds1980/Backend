@@ -1,0 +1,1682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="bootstrap default admin template">
+    <meta name="viewport" content="width=device-width">
+    <title>Blockquote | Admin Template</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="../../../assets/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../../../assets/favicon/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="../../../assets/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="../../../assets/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../../../assets/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="../../../assets/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="../../../assets/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="../../../assets/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="../../../assets/favicon/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/favicon/apple-touch-icon-180x180.png" />
+
+    <!-- START GLOBAL CSS -->
+    <link rel="stylesheet" href="../../../assets/global/plugins/Waves/dist/waves.min.css"/>
+    <link rel="stylesheet" href="../../../assets/global/plugins/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../../assets/icons_fonts/elegant_font/elegant.min.css"/>
+    <link id="site-color" rel="stylesheet" href="../../../assets/layouts/layout-left-menu/css/color/light/color-default.min.css"/>
+    <link rel="stylesheet" href="../../../assets/global/plugins/switchery/dist/switchery.min.css"/>
+    <link rel="stylesheet" href="../../../assets/global/plugins/perfect-scrollbar/css/perfect-scrollbar.min.css"/>
+
+
+    <!-- END GLOBAL CSS -->
+
+    <!-- START PAGE PLUG-IN CSS -->
+    <link rel="stylesheet" href="../../../assets/global/plugins/font-awesome/css/font-awesome.min.css"/>
+    <!-- END PAGE PLUG-IN CSS -->
+
+    <!-- START TEMPLATE GLOBAL CSS -->
+    <link rel="stylesheet" href="../../../assets/global/css/components-rounded.css"/>
+    <!-- END TEMPLATE GLOBAL CSS -->
+
+    <!-- START LAYOUT CSS -->
+    <link rel="stylesheet" href="../../../assets/layouts/layout-left-menu/css/layout.min.css"/>
+    <!-- END LAYOUT CSS -->
+</head>
+<body class="rounded-admin">
+<div class="loader-overlay">
+    <div class="loader-preview-area">
+        <div class="spinners">
+            <div class="loader">
+                <div class="rotating-plane"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wrapper">
+    <!-- START HEADER -->
+    <header id="header">
+    <div class="row">
+        <div class="col-sm-4 col-xl-2 header-left">
+            <div class="logo float-xs-left">
+                <a href="#"><img src="../../../assets/global/image/web-logo.png" alt="logo"></a>
+            </div>
+            <button class="left-menu-toggle flat-buttons float-xs-right">
+                <i class="icon_menu toggle-icon"></i>
+            </button>
+            <button class="right-menu-toggle flat-buttons float-xs-right">
+                <i class="arrow_carrot-left toggle-icon"></i>
+            </button>
+        </div>
+
+        <div class="col-sm-8 col-xl-10 header-right">
+            <div class="header-inner-right">
+                <div class="float-default searchbox">
+                    <div class="right-icon">
+                        <a href="javascript:void(0)">
+                            <i class="icon_search"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="float-default mail">
+                    <div class="right-icon">
+                        <a href="javascript:void(0)" data-toggle="dropdown" data-open="true" aria-expanded="true">
+                            <i class="icon_mail_alt"></i>
+                            <span class="mail-no">10</span>
+                        </a>
+                        <div class="dropdown-menu messagetoggle" role="menu">
+                            <div class="nav-tab-horizontal">
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link flat-buttons active" data-toggle="tab" href="#messages"
+                                           role="tab">Message</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link flat-buttons" data-toggle="tab" href="#resendmessage"
+                                           role="tab">Resend</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="messages" role="tabpanel" data-plugin="custom-scroll" data-height="320">
+                                    <ul class="userMessagedrop">
+                                        <li>
+                                            <a href="#">
+                                                <div class="media">
+                                                    <div class="media-left float-xs-left">
+                                                        <span class="label label-primary"><i
+                                                                class="icon_plus"></i></span>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6>New tasks added</h6>
+                                                        <p>Dummy text of the printing and typesetting industry.</p>
+                                                        <div class="meta-tag text-nowrap">
+                                                            <time datetime="2016-12-10T20:27:48+07:00"
+                                                                  class="text-muted">5 mins
+                                                            </time>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="media">
+                                                    <div class="media-left float-xs-left">
+                                                        <span class="label label-success"><i
+                                                                class="icon_lock"></i></span>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6>Successfully</h6>
+                                                        <p>Dummy text of the printing and typesetting industry.</p>
+                                                        <div class="meta-tag text-nowrap">
+                                                            <time datetime="2016-12-10T20:27:48+07:00"
+                                                                  class="text-muted">5 mins
+                                                            </time>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="media">
+                                                    <div class="media-left float-xs-left">
+                                                        <span class="label label-danger"><i
+                                                                class="icon_info_alt"></i></span>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6>Warnind</h6>
+                                                        <p>Dummy text of the printing and typesetting industry.</p>
+                                                        <div class="meta-tag text-nowrap">
+                                                            <time datetime="2016-12-10T20:27:48+07:00"
+                                                                  class="text-muted">5 mins
+                                                            </time>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="media">
+                                                    <div class="media-left float-xs-left">
+                                                        <span class="label label-info"><i class="icon_plus"></i></span>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6>Add new friend</h6>
+                                                        <p>Dummy text of the printing and typesetting industry.</p>
+                                                        <div class="meta-tag text-nowrap">
+                                                            <time datetime="2016-12-10T20:27:48+07:00"
+                                                                  class="text-muted">5 mins
+                                                            </time>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane" id="resendmessage" role="tabpanel" data-plugin="custom-scroll" data-height="320">
+                                    <ul class="userMessagedrop">
+                                        <li>
+                                            <a href="#">
+                                                <div class="media">
+                                                    <div class="media-left float-xs-left">
+                                                        <span class="label label-primary"><i
+                                                                class="icon_profile"></i></span>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6>5 new members joi...</h6>
+                                                        <p>Dummy text of the printing and typesetting industry.</p>
+                                                        <div class="meta-tag text-nowrap">
+                                                            <time datetime="2016-12-10T20:27:48+07:00"
+                                                                  class="text-muted">2 mins
+                                                            </time>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="media">
+                                                    <div class="media-left float-xs-left">
+                                                        <span class="label label-success"><i
+                                                                class="icon_key"></i></span>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6>You changed...</h6>
+                                                        <p>Dummy text of the printing and typesetting industry.</p>
+                                                        <div class="meta-tag text-nowrap">
+                                                            <time datetime="2016-12-10T20:27:48+07:00"
+                                                                  class="text-muted">5 mins
+                                                            </time>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="media">
+                                                    <div class="media-left float-xs-left">
+                                                        <span class="label label-danger"><i
+                                                                class="icon_close"></i></span>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6>5 members removed</h6>
+                                                        <p>Dummy text of the printing and typesetting industry.</p>
+                                                        <div class="meta-tag text-nowrap">
+                                                            <time datetime="2016-12-10T20:27:48+07:00"
+                                                                  class="text-muted">15 mins
+                                                            </time>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="media">
+                                                    <div class="media-left float-xs-left">
+                                                        <span class="label label-info"><i class="icon_plus"></i></span>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6>Update available</h6>
+                                                        <p>Dummy text of the printing and typesetting industry.</p>
+                                                        <div class="meta-tag text-nowrap">
+                                                            <time datetime="2016-12-10T20:27:48+07:00"
+                                                                  class="text-muted">5 mins
+                                                            </time>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="float-default chat">
+                    <div class="right-icon">
+                        <a href="javascript:void(0)" data-toggle="dropdown" data-open="true" data-animation="slideOutUp"
+                           aria-expanded="false">
+                            <i class="icon_chat_alt"></i>
+                            <span class="mail-no">8</span>
+                        </a>
+                        <ul class="dropdown-menu userChat" data-plugin="custom-scroll" data-height="310">
+                            <li>
+                                <a href="#">
+                                    <div class="media">
+                                        <div class="media-left float-xs-left">
+                                            <img src="../../../assets/global/image/img_400x400.png" alt="message"/>
+                                        </div>
+                                        <div class="media-body">
+                                            <h5>Judy Fowler</h5>
+                                            <p>Dummy text of the printing...</p>
+                                            <div class="meta-tag text-nowrap">
+                                                <time datetime="2016-12-10T20:27:48+07:00" class="text-muted">5 mins
+                                                </time>
+                                            </div>
+                                            <div class="status online"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="media">
+                                        <div class="media-left float-xs-left">
+                                            <img src="../../../assets/global/image/img_400x400.png" alt="message"/>
+                                        </div>
+                                        <div class="media-body">
+                                            <h5>Judy Fowler</h5>
+                                            <p>Dummy text of the printing...</p>
+                                            <div class="meta-tag text-nowrap">
+                                                <time datetime="2016-12-10T20:27:48+07:00" class="text-muted">2 hours
+                                                </time>
+                                            </div>
+                                            <div class="status offline"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="media">
+                                        <div class="media-left float-xs-left">
+                                            <img src="../../../assets/global/image/img_400x400.png" alt="message"/>
+                                        </div>
+                                        <div class="media-body">
+                                            <h5>Judy Fowler</h5>
+                                            <p>Dummy text of the printing...</p>
+                                            <div class="meta-tag text-nowrap">
+                                                <time datetime="2016-12-10T20:27:48+07:00" class="text-muted">20 Oct
+                                                </time>
+                                            </div>
+                                            <div class="status offline"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="media">
+                                        <div class="media-left float-xs-left">
+                                            <img src="../../../assets/global/image/img_400x400.png" alt="message"/>
+                                        </div>
+                                        <div class="media-body">
+                                            <h5>Judy Fowler</h5>
+                                            <p>Dummy text of the printing...</p>
+                                            <div class="meta-tag text-nowrap">
+                                                <time datetime="2016-12-10T20:27:48+07:00" class="text-muted">20 Oct
+                                                </time>
+                                            </div>
+                                            <div class="status online"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="float-default chat">
+                    <div class="right-icon">
+                        <a href="#" data-plugin="fullscreen">
+                            <i class="arrow_expand"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-dropdown">
+                    <div class="btn-group">
+                        <a href="#" class="user-header dropdown-toggle" data-toggle="dropdown"
+                           data-animation="slideOutUp" aria-haspopup="true"
+                           aria-expanded="false">
+                            <img src="../../../assets/global/image/img_128x128.png" alt="Profile image"/>
+                        </a>
+                        <div class="dropdown-menu drop-profile">
+                            <div class="userProfile">
+                                <img src="../../../assets/global/image/img_128x128.png" alt="Profile image"/>
+                                <h5>Miler Hussey</h5>
+                                <p>milerhussey@yahoo.com</p>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <a class="btn left-spacing link-btn flat-buttons" href="#" role="button">Link</a>
+                            <a class="btn left-second-spacing link-btn flat-buttons" href="#" role="button">Link 2</a>
+                            <a class="btn btn-primary float-xs-right right-spacing flat-buttons" href="#" role="button">Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="search-overlay">
+    <div class="float-default search">
+        <div class="search_bg"></div>
+        <div class="right-icon search_box">
+            <div class="search-div">
+                <input type="text" class="search_input">
+                <label class="search-input-label">
+                    <span class="input-label-title">Search</span>
+                </label>
+            </div>
+            <div class="divider50"></div>
+            <div class="search-result">
+                <div class="search-item">
+                    <div class="search-image float-xs-left">
+                        <img src="../../../assets/global/image/img_640x450.png" alt="search-image">
+                    </div>
+                    <div class="search-info float-xs-right">
+                        <h3 class="title">Search here</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus diam quis arcu lobortis sagittis. Etiam eu ornare mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    </div>
+                </div>
+                <div class="divider15"></div>
+                <div class="search-item">
+                    <div class="search-info search-full float-xs-right">
+                        <h3 class="title">Admin templates</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus diam quis arcu lobortis sagittis. Etiam eu ornare mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    </div>
+                </div>
+                <div class="divider15"></div>
+                <div class="search-item">
+                    <div class="search-image float-xs-left">
+                        <img src="../../../assets/global/image/img_640x450.png" alt="search-image">
+                    </div>
+                    <div class="search-info float-xs-right">
+                        <h3 class="title">Books</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus diam quis arcu lobortis sagittis. Etiam eu ornare mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search_close icon_close"></div>
+    </div>
+</div>
+    <!-- END HEADER -->
+    <!-- START CONTENT -->
+    <section id="main" class="container-fluid">
+        <div class="row">
+            <!-- START NAVIGATION -->
+            <aside id="sidebar">
+    <div class="sidebar-search">
+        <input id="live-search-box" type="search" class="form-control input-sm circle-input" placeholder="Search...">
+        <a href="javascript:void(0)"><i class="search-close icon_search"></i></a>
+    </div>
+    <div class="sidebar-menu">
+        <ul class="nav site-menu live-search-list" id="site-menu" data-plugin="custom-scroll" data-suppress-scroll-x="true" data-height="100%">
+            <li class="menu-title"><i class="icon_compass_alt"></i><span>Main Menu</span>
+                <ul class="main-menu">
+                    <li class="sub-item">
+                        <a href="javascript:void(0)" class="flat-buttons"><span>Dashboard</span>
+                            <span class="float-xs-right"><i class="icon_plus"></i></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="index.html" class="flat-buttons">Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="dashboard_v1.html" class="flat-buttons">Dashboard 1</a>
+                            </li>
+                            <li>
+                                <a href="dashboard_v2.html" class="flat-buttons">Dashboard 2</a>
+                            </li>
+                            <li>
+                                <a href="dashboard_v3.html" class="flat-buttons">Dashboard 3</a>
+                            </li>
+                            <li>                                 <a href="crm_dashboard.html" class="flat-buttons">CRM Dashboard</a>                             </li>                             <li>                                 <a href="hospital_dashboard.html" class="flat-buttons">Hospital Dashboard</a>                             </li>                             <li>                                 <a href="server_dashboard.html" class="flat-buttons">Server Dashboard</a>                             </li>                             <li>                                 <a href="analytics_dashboard.html" class="flat-buttons">Analytics Dashboard</a>                             </li>                             <li>                                 <a href="real_estate_dashboard.html" class="flat-buttons">Real estate Dashboard</a>                             </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-title"><i class="icon_document_alt"></i><span>Layout Pages</span>
+                <ul class="main-menu">
+                    <li class="sub-item">
+                        <a href="javascript:void(0)" class="flat-buttons"><span>General Pages</span>
+                            <span class="float-xs-right"><i class="icon_plus"></i></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="userlist.html" class="flat-buttons">Userlist</a>
+                            </li>
+                            <li>
+                                <a href="invoice.html" class="flat-buttons">Invoice</a>
+                            </li>
+                            <li>
+                                <a href="blank.html" class="flat-buttons">Blank</a>
+                            </li>
+                            <li>
+                                <a href="profile.html" class="flat-buttons">Profile</a>
+                            </li>
+                            <li>
+                                <a href="search.html" class="flat-buttons">Search</a>
+                            </li>
+                            <li>
+                                <a href="gallery.html" class="flat-buttons">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="grid.html" class="flat-buttons">Grid</a>
+                            </li>
+                            <li>
+                                <a href="maintenance.html" class="flat-buttons">Maintenance</a>
+                            </li>
+                            <li>
+                                <a href="404.html" class="flat-buttons">404 Page</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="javascript:void(0)" class="flat-buttons">
+                            Cookie consent<span class="float-xs-right"><i class="icon_plus"></i></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="cookie_consent_v1.html" class="flat-buttons">Cookie consent 1</a>
+                            </li>
+                            <li>
+                                <a href="cookie_consent_v2.html" class="flat-buttons">Cookie consent 2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="javascript:void(0)" class="flat-buttons">
+                            eCommerce<span class="float-xs-right"><i class="icon_plus"></i></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="eCommerce_dashboard.html" class="flat-buttons">Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="order.html" class="flat-buttons">Orders</a>
+                            </li>
+                            <li>
+                                <a href="order_view.html" class="flat-buttons">Order view</a>
+                            </li>
+                            <li>
+                                <a href="product.html" class="flat-buttons">Products</a>
+                            </li>
+                            <li>
+                                <a href="products_edit.html" class="flat-buttons">Product edit</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="javascript:void(0)" class="flat-buttons">
+                            Apps<span class="float-xs-right"><i class="icon_plus"></i></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="contact.html" class="flat-buttons">Contacts</a>
+                            </li>
+                            <li>
+                                <a href="calendar.html" class="flat-buttons">Calender</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="javascript:void(0)" class="flat-buttons">
+                                    Message<span class="float-xs-right"><i class="icon_plus"></i></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="message.html" class="flat-buttons">Message</a>
+                                    </li>
+                                    <li>
+                                        <a href="message_v2.html" class="flat-buttons">Message V2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sub-item">
+                                <a href="javascript:void(0)" class="flat-buttons">
+                                    Mailbox<span class="float-xs-right"><i class="icon_plus"></i></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="mail_box.html" class="flat-buttons">Inbox</a>
+                                    </li>
+                                    <li>
+                                        <a href="mail_draft.html" class="flat-buttons">Draft</a>
+                                    </li>
+                                    <li>
+                                        <a href="mail_send.html" class="flat-buttons">Sent</a>
+                                    </li>
+                                    <li>
+                                        <a href="mail_archive.html" class="flat-buttons">Archive</a>
+                                    </li>
+                                    <li>
+                                        <a href="mail_trash.html" class="flat-buttons">Trash</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="javascript:void(0)" class="flat-buttons">
+                            Maps<span class="float-xs-right"><i class="icon_plus"></i></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="google_maps.html" class="flat-buttons">Google map</a>
+                            </li>
+                            <li>
+                                <a href="vector_maps.html" class="flat-buttons">Vector map</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="javascript:void(0)" class="flat-buttons">
+                            Users<span class="float-xs-right"><i class="icon_plus"></i></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="sub-item">
+                                <a href="javascript:void(0)" class="flat-buttons">
+                                    Login<span class="float-xs-right"><i class="icon_plus"></i></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="login_v1.html" class="flat-buttons">Login Page 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="login_v2.html" class="flat-buttons">Login Page 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sub-item">
+                                <a href="javascript:void(0)" class="flat-buttons">
+                                    Register<span class="float-xs-right"><i class="icon_plus"></i></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="register_v1.html" class="flat-buttons">Register Page 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="register_v2.html" class="flat-buttons">Register Page 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sub-item">
+                                <a href="javascript:void(0)" class="flat-buttons">
+                                    Lockscreen<span class="float-xs-right"><i class="icon_plus"></i></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="lock_screen_v1.html" class="flat-buttons">Lockscreen Page 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="lock_screen_v2.html" class="flat-buttons">Lockscreen Page 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sub-item">
+                                <a href="javascript:void(0)" class="flat-buttons">
+                                    Forgot Password<span class="float-xs-right"><i class="icon_plus"></i></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="forgot_password_v1.html" class="flat-buttons">Forgot Password 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="forgot_password_v2.html" class="flat-buttons">Forgot Password 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="menu-title"><i class="icon_genius"></i><span>Components</span>
+                <ul class="main-menu">
+                    <li class="sub-item">
+                        <a href="javascript:void(0)" class="flat-buttons">
+                            Basic UI<span class="float-xs-right"><i class="icon_plus"></i></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="cards.html" class="flat-buttons">Cards</a>
+                            </li>
+                            <li>
+                                <a href="buttons.html" class="flat-buttons">Button</a>
+                            </li>
+                            <li>
+                                <a href="switches.html" class="flat-buttons">Switch</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="javascript:void(0)" class="flat-buttons">
+                                    Icons<span class="float-xs-right"><i class="icon_plus"></i></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="font_awesome.html" class="flat-buttons">Font-Awesome</a>
+                                    </li>
+                                    <li>
+                                        <a href="themify_icons.html" class="flat-buttons">Themify-Icons</a>
+                                    </li>
+                                    <li>
+                                        <a href="7-Stroke_icons.html" class="flat-buttons">7-stroke</a>
+                                    </li>
+                                    <li>
+                                        <a href="weather_icons.html" class="flat-buttons">Weather-Icons</a>
+                                    </li>
+                                    <li>
+                                        <a href="material_icons.html" class="flat-buttons">Material-Design</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sub-item">
+                                <a href="javascript:void(0)" class="flat-buttons">
+                                    Progress<span class="float-xs-right"><i class="icon_plus"></i></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="youtube_progress.html" class="flat-buttons">Youtube</a>
+
+                                    </li>
+                                    <li>
+                                        <a href="3D_bar_progress.html" class="flat-buttons">3D bar</a>
+                                    </li>
+                                    <li>
+                                        <a href="flate_topbar_progress.html" class="flat-buttons">Flate header</a>
+                                    </li>
+                                    <li>
+                                        <a href="corner_indicator_progress.html" class="flat-buttons">Corner indicator</a>
+                                    </li>
+                                    <li>
+                                        <a href="big_counter.html" class="flat-buttons">Counter</a>
+                                    </li>
+                                    <li>
+                                        <a href="bounce.html" class="flat-buttons">Bounce</a>
+                                    </li>
+                                    <li>
+                                        <a href="loading_bar.html" class="flat-buttons">Loading bar</a>
+                                    </li>
+                                    <li>
+                                        <a href="center_circle.html" class="flat-buttons">Center circle</a>
+                                    </li>
+                                    <li>
+                                        <a href="center_simple.html" class="flat-buttons">Center simple</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="list.html" class="flat-buttons">List</a>
+                            </li>
+                            <li>
+                                <a href="dropdown.html" class="flat-buttons">Dropdown</a>
+                            </li>
+                            <li>
+                                <a href="images.html" class="flat-buttons">Image</a>
+                            </li>
+                            <li>
+                                <a href="modals.html" class="flat-buttons">Modals</a>
+                            </li>
+                            <li>
+                                <a href="scrollable.html" class="flat-buttons">Scrollbar</a>
+                            </li>
+                            <li>
+                                <a href="typography.html" class="flat-buttons">Typography</a>
+                            </li>
+                            <li>
+                                <a href="utilities.html" class="flat-buttons">Utilities</a>
+                            </li>
+                            <li>
+                                <a href="carousel.html" class="flat-buttons">Carousel</a>
+                            </li>
+                            <li>
+                                <a href="color_generator.html" class="flat-buttons" >Color Generator</a>
+                            </li>
+                            <li>
+                                <a href="tabs_accordions.html" class="flat-buttons">Tabs &amp; Accordions</a>
+                            </li>
+                            <li>
+                                <a href="badges_tags.html" class="flat-buttons">Badges &amp; Tags</a>
+                            </li>
+                            <li>
+                                <a href="progress_bar.html" class="flat-buttons">Progress Bars</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="javascript:void(0)" class="flat-buttons">
+                            Advanced UI<span class="float-xs-right"><i class="icon_plus"></i></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="highlight.html" class="flat-buttons">Highlight</a>
+                            </li>
+                            <li>
+                                <a href="bootbox.html" class="flat-buttons">Bootbox</a>
+                            </li>
+                            <li>
+                                <a href="sweetalert.html" class="flat-buttons">Sweetalert</a>
+                            </li>
+                            <li>
+                                <a href="toastr.html" class="flat-buttons">Toastr</a>
+                            </li>
+                            <li>
+                                <a href="tooltip_popover.html" class="flat-buttons">Tooltip & Popover</a>
+                            </li>
+                            <li>
+                                <a href="masonry.html" class="flat-buttons">Masonry</a>
+                            </li>
+                            <li>
+                                <a href="rating.html" class="flat-buttons">Rating</a>
+                            </li>
+                            <li>
+                                <a href="sortable_nestable.html" class="flat-buttons">Sortable & Nestable</a>
+                            </li>
+                            <li>
+                                <a href="lightbox.html" class="flat-buttons">Lightbox</a>
+                            </li>
+                            <li>
+                                <a href="treeview.html" class="flat-buttons">Treeview</a>
+                            </li>
+                            <li>
+                                <a href="context_menu.html" class="flat-buttons">Context Menu</a>
+                            </li>
+                            <li>
+                                <a href="file_manager.html" class="flat-buttons">File Manager</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="javascript:void(0)" class="flat-buttons">
+                            Elements<span class="float-xs-right"><i class="icon_plus"></i></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="alerts.html" class="flat-buttons">Alerts</a>
+                            </li>
+                            <li>
+                                <a href="ribbon.html" class="flat-buttons">Ribbon</a>
+                            </li>
+                            <li>
+                                <a href="pricing-table.html" class="flat-buttons">Pricing Table</a>
+                            </li>
+                            <li>
+                                <a href="overlay.html" class="flat-buttons">Overlay</a>
+                            </li>
+                            <li>
+                                <a href="step.html" class="flat-buttons">Step</a>
+                            </li>
+                            <li>
+                                <a href="timeline.html" class="flat-buttons">Timeline</a>
+                            </li>
+                            <li>
+                                <a href="testimonial.html" class="flat-buttons">Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="breadcrumbs.html" class="flat-buttons">Breadcrumbs</a>
+                            </li>
+                            <li>
+                                <a href="blockquote.html" class="flat-buttons">Blockquotes</a>
+                            </li>
+                            <li>
+                                <a href="nav.html" class="flat-buttons">Nav</a>
+                            </li>
+                            <li>
+                                <a href="navbar.html" class="flat-buttons">Navbars</a>
+                            </li>
+                            <li>
+                                <a href="pagination.html" class="flat-buttons">Pagination</a>
+                            </li>
+                            <li>
+                                <a href="different_headers.html" class="flat-buttons">Different Headers</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="javascript:void(0)" class="flat-buttons">
+                            Forms<span class="float-xs-right"><i class="icon_plus"></i></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="general_elements.html" class="flat-buttons">General Elements</a>
+                            </li>
+                            <li>
+                                <a href="material_elements.html" class="flat-buttons">Material Elements</a>
+                            </li>
+                            <li>
+                                <a href="form_layout.html" class="flat-buttons">Form Layouts</a>
+                            </li>
+                            <li>
+                                <a href="form_validation.html" class="flat-buttons">Form Validation</a>
+                            </li>
+                            <li>
+                                <a href="form_mask.html" class="flat-buttons">Form Masks</a>
+                            </li>
+                            <li>
+                                <a href="advanced_elements.html" class="flat-buttons">Advanced Elements</a>
+                            </li>
+                            <li>
+                                <a href="form_wizard.html" class="flat-buttons">Form Wizard</a>
+                            </li>
+                            <li>
+                                <a href="markdown_editor.html" class="flat-buttons">Markdown Editor</a>
+                            </li>
+                            <li>
+                                <a href="image_cropping.html" class="flat-buttons">Image Cropping</a>
+                            </li>
+                            <li>
+                                <a href="file_upload.html" class="flat-buttons">File Upload</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="javascript:void(0)" class="flat-buttons">
+                            Tables<span class="float-xs-right"><i class="icon_plus"></i></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="basic_table.html" class="flat-buttons">Basic Tables</a>
+                            </li>
+                            <li>
+                                <a href="bootstrap_tables.html" class="flat-buttons">Bootstrap Tables</a>
+                            </li>
+                            <li>
+                                <a href="floatthead.html" class="flat-buttons">floatThead</a>
+                            </li>
+                            <li>
+                                <a href="editable.html" class="flat-buttons">Editable</a>
+                            </li>
+                            <li>
+                                <a href="datatable.html" class="flat-buttons">Datatable</a>
+                            </li>
+                            <li>
+                                <a href="jsgrid.html" class="flat-buttons">jsGrid</a>
+                            </li>
+                            <li>
+                                <a href="responsive_table.html" class="flat-buttons">Responsive Tables</a>
+                            </li>
+                            <li>
+                                <a href="footable.html" class="flat-buttons">Footable</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="javascript:void(0)" class="flat-buttons">
+                            Chart<span class="float-xs-right"><i class="icon_plus"></i></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="morris_chart.html" class="flat-buttons">Morris Chart</a>
+                            </li>
+                            <li>
+                                <a href="sparkline_chart.html" class="flat-buttons">Sparkline Chart </a>
+                            </li>
+                            <li>
+                                <a href="chartist.html" class="flat-buttons">Chartist</a>
+                            </li>
+                            <li>
+                                <a href="gantt_chart.html" class="flat-buttons">Gantt Chart</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="javascript:void(0)" class="flat-buttons">
+                            Widgets<span class="float-xs-right"><i class="icon_plus"></i></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="social_widget.html" class="flat-buttons">Social Widgets</a>
+                            </li>
+                            <li>
+                                <a href="static_widget.html" class="flat-buttons">Static Widgets</a>
+                            </li>
+                            <li>
+                                <a href="data_widgets.html" class="flat-buttons">Data Widgets</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="sidebar-extra">
+        <a href="javascript:void(0);" class="flat-buttons"><i class="icon_lock-open_alt"></i></a>
+        <a href="javascript:void(0);" class="flat-buttons"><i class="icon_key_alt"></i></a>
+        <a href="javascript:void(0);" class="flat-buttons"><i class="icon_lock_alt"></i></a>
+    </div>
+</aside>
+            <!-- END NAVIGATION -->
+            <!-- START RIGHT CONTENT -->
+            <section id="content-wrapper">
+                <!-- START PAGE TITLE -->
+                <div class="site-content-title">
+                    <h2 class="float-xs-left content-title-main">Blockquote</h2>
+                    <!-- START BREADCRUMB -->
+                    <ol class="breadcrumb float-xs-right">
+                        <li class="breadcrumb-item">
+                            <span class="fs1" aria-hidden="true" data-icon=""></span>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="breadcrumb-item"><a href="#">Components</a></li>
+                        <li class="breadcrumb-item active">Blockquote</li>
+                    </ol>
+                    <!-- END BREADCRUMB -->
+                </div>
+                <!-- END PAGE TITLE -->
+                <div class="content content-blockquote">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="nav-tab-horizontal">
+                                <!--  START BASIC BLOCKQUOTE SECTION -->
+                                <ul role="tablist" class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a role="tab" href="#simple-blockquote-output" data-toggle="tab"
+                                           class="nav-link active flat-buttons">Output</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" href="#simple-blockquote-code" data-toggle="tab"
+                                           class="nav-link flat-buttons">Code</a>
+                                    </li>
+                                </ul>
+                                <div class="divider15"></div>
+                                <h4 class="page-content-title">Simple blockquote</h4>
+                                <div class="tab-content">
+                                    <div role="tabpanel" id="simple-blockquote-output" class="tab-pane active">
+                                        <p>Use <code>&lt;blockquote&gt;</code> to tag any text as a quote for simple
+                                            quotes. </p>
+                                        <div class="simple-blockquote-section">
+                                            <blockquote>
+                                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found
+                                                    himself transformed in his bed into a horrible vermin. He lay on his
+                                                    armour-like back, and if he lifted his head a little he could see
+                                                    his brown belly, slightly domed and divided by arches into stiff
+                                                    sections. The bedding was hardly able to cover it and seemed ready
+                                                    to slide off any moment. His many legs.</p>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" id="simple-blockquote-code" class="tab-pane pre-code">
+                                        <div data-plugin="custom-scroll" data-min="300" data-height="150">
+                                            <div>
+                                                            <pre>&lt;div class=&quot;<b>simple-blockquote-section</b>&quot;&gt;
+    <b>&lt;blockquote&gt;</b>
+        &lt;p&gt;Content here...&lt;/p&gt;
+    <b>&lt;/blockquote&gt;</b>
+&lt;/div&gt;</pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  END BASIC BLOCKQUOTE SECTION -->
+                            </div>
+                        </div>
+                        <div class="divider-lg-spacing divider-xs-spacing"></div>
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="nav-tab-horizontal">
+                                <!--  START RIGHT BLOCKQUOTE SECTION -->
+                                <ul role="tablist" class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a role="tab" href="#right-blockquote-output" data-toggle="tab"
+                                           class="nav-link active flat-buttons">Output</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" href="#right-blockquote-code" data-toggle="tab"
+                                           class="nav-link flat-buttons">Code</a>
+                                    </li>
+                                </ul>
+                                <div class="divider15"></div>
+                                <h4 class="page-content-title">Right blockquote</h4>
+                                <div class="tab-content">
+                                    <div role="tabpanel" id="right-blockquote-output" class="tab-pane active">
+                                        <p>Use <code>.right-blockquote-section</code> to tag any text as the quote for
+                                            right side quotes. </p>
+                                        <div class="right-blockquote-section">
+                                            <blockquote>
+                                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found
+                                                    himself transformed in his bed into a horrible vermin. He lay on his
+                                                    armour-like back, and if he lifted his head a little he could see
+                                                    his brown belly, slightly domed and divided by arches into stiff
+                                                    sections. The bedding was hardly able to cover it and seemed ready
+                                                    to slide off any moment. His many legs.</p>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" id="right-blockquote-code" class="tab-pane pre-code">
+                                        <div data-plugin="custom-scroll" data-min="300" data-height="150">
+                                            <div>
+                                                            <pre>&lt;div class=&quot;<b>right-blockquote-section</b>&quot;&gt;
+    <b>&lt;blockquote&gt;</b>
+        &lt;p&gt;Content here...&lt;/p&gt;
+    <b>&lt;/blockquote&gt;</b>
+&lt;/div&gt;</pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  END RIGHT BLOCKQUOTE SECTION -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content content-blockquote">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="nav-tab-horizontal">
+                                <!--  START CITED BLOCKQUOTE SECTION -->
+                                <ul role="tablist" class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a role="tab" href="#cited-blockquote-output" data-toggle="tab"
+                                           class="nav-link active flat-buttons">Output</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" href="#cited-blockquote-code" data-toggle="tab"
+                                           class="nav-link flat-buttons">Code</a>
+                                    </li>
+                                </ul>
+                                <div class="divider15"></div>
+                                <h4 class="page-content-title">Cited blockquote</h4>
+                                <div class="tab-content">
+                                    <div role="tabpanel" id="cited-blockquote-output" class="tab-pane active">
+                                        <p>Use <code>&lt;footer&gt;</code> to display the citation. Put the name of
+                                            author in <code>&lt;cite&gt;</code> tag. </p>
+                                        <div class="alert-danger">
+                                            <blockquote>
+                                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found
+                                                    himself transformed in his bed into a horrible vermin. He lay on his
+                                                    armour-like back, and if he lifted his head a little he could see
+                                                    his brown belly, slightly domed and divided by arches into stiff
+                                                    sections.</p>
+                                                <footer class="blockquote-footer">
+                                                    slightly domed
+                                                    <cite title="Source Title">stiff sections</cite>
+                                                </footer>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" id="cited-blockquote-code" class="tab-pane pre-code">
+                                        <div data-plugin="custom-scroll" data-min="300" data-height="204">
+                                            <div>
+                                                            <pre>&lt;div class=&quot;<b>alert-primary</b>&quot;&gt;
+    <b>&lt;blockquote&gt;</b>
+        &lt;p&gt;Content here...&lt;/p&gt;
+        &lt;footer class=&quot;<b>blockquote-footer</b>&quot;&gt;
+            slightly domed
+            &lt;cite title=&quot;Source Title&quot;&gt;stiff sections&lt;/cite&gt;
+        &lt;/footer&gt;
+    <b>&lt;/blockquote&gt;</b>
+&lt;/div&gt;</pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  END CITED BLOCKQUOTE SECTION -->
+                            </div>
+                        </div>
+                        <div class="divider-lg-spacing divider-xs-spacing"></div>
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="nav-tab-horizontal">
+                                <!--  START RIGHT CITED BLOCKQUOTE SECTION -->
+                                <ul role="tablist" class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a role="tab" href="#right-cited-output" data-toggle="tab"
+                                           class="nav-link active flat-buttons">Output</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" href="#right-cited-code" data-toggle="tab"
+                                           class="nav-link flat-buttons">Code</a>
+                                    </li>
+                                </ul>
+                                <div class="divider15"></div>
+                                <h4 class="page-content-title">Right cited blockquote</h4>
+                                <div class="tab-content">
+                                    <div role="tabpanel" id="right-cited-output" class="tab-pane active">
+                                        <p>Use <code>&lt;footer&gt;</code> to display citation. Put the name of
+                                            author in <code>&lt;cite&gt;</code> tag.</p>
+                                        <div class="alert-success">
+                                            <blockquote>
+                                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found
+                                                    himself transformed in his bed into a horrible vermin. He lay on his
+                                                    armour-like back, and if he lifted his head a little he could see
+                                                    his brown belly, slightly domed and divided by arches into stiff
+                                                    sections.</p>
+                                                <footer class="blockquote-footer text-xs-right">
+                                                    slightly domed
+                                                    <cite title="Source Title">stiff sections</cite>
+                                                </footer>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" id="right-cited-code" class="tab-pane pre-code">
+                                        <div data-plugin="custom-scroll" data-min="300" data-height="204">
+                                            <div>
+                                                            <pre>&lt;div class=&quot;<b>alert-success</b>&quot;&gt;
+    <b>&lt;blockquote&gt;</b>
+        &lt;p&gt;Content here...&lt;/p&gt;
+        &lt;footer class=&quot;<b>blockquote-footer</b> text-xs-right&quot;&gt;
+            slightly domed
+            &lt;cite title=&quot;Source Title&quot;&gt;stiff sections&lt;/cite&gt;
+        &lt;/footer&gt;
+    <b>&lt;/blockquote&gt;</b>
+&lt;/div&gt;</pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  END RIGHT CITED BLOCKQUOTE SECTION -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content content-blockquote">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="nav-tab-horizontal">
+                                <!--  START BLOCKQUOTE WITH BACKGROUND ICON SECTION -->
+                                <ul role="tablist" class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a role="tab" href="#back-blockquote-output" data-toggle="tab"
+                                           class="nav-link active flat-buttons">Output</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" href="#back-blockquote-code" data-toggle="tab"
+                                           class="nav-link flat-buttons">Code</a>
+                                    </li>
+                                </ul>
+                                <div class="divider15"></div>
+                                <h4 class="page-content-title">Blockquote with background icon</h4>
+                                <div class="tab-content">
+                                    <div role="tabpanel" id="back-blockquote-output" class="tab-pane active">
+                                        <p>Use <code>background-icon-blockquote</code> class to display blockquote with background.</p>
+                                        <div class="background-icon-blockquote">
+                                            <blockquote>
+                                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found
+                                                    himself transformed in his bed into a horrible vermin. He lay on his
+                                                    armour-like back, and if he lifted his head a little he could see
+                                                    his brown belly, slightly domed and divided by arches into stiff
+                                                    sections. The bedding was hardly able to cover it and seemed ready
+                                                    to slide off any moment. His many legs.
+                                                </p>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" id="back-blockquote-code" class="tab-pane pre-code">
+                                        <div data-plugin="custom-scroll" data-min="300" data-height="150">
+                                            <div>
+                                                            <pre>&lt;div class=&quot;<b>background-icon-blockquote</b>&quot;&gt;
+    <b>&lt;blockquote&gt;</b>
+        &lt;p&gt;Content here...&lt;/p&gt;
+    <b>&lt;/blockquote&gt;</b>
+&lt;/div&gt;</pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  END BLOCKQUOTE WITH BACKGROUND ICON SECTION -->
+                            </div>
+                        </div>
+                        <div class="divider-lg-spacing divider-xs-spacing"></div>
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="nav-tab-horizontal">
+                                <!--  START MODERN BLOCKQUOTE SECTION -->
+                                <ul role="tablist" class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a role="tab" href="#modern-blockquote-output" data-toggle="tab"
+                                           class="nav-link active flat-buttons">Output</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" href="#modern-blockquote-code" data-toggle="tab"
+                                           class="nav-link flat-buttons">Code</a>
+                                    </li>
+                                </ul>
+                                <div class="divider15"></div>
+                                <h4 class="page-content-title">Modern blockquote</h4>
+                                <div class="tab-content">
+                                    <div role="tabpanel" id="modern-blockquote-output" class="tab-pane active">
+                                        <p>You can use modern style blockquote.</p>
+                                        <div class="modern-section">
+                                            <div class="modern-blockquote">
+                                                <blockquote>
+                                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he
+                                                        found
+                                                        himself transformed in his bed into a horrible vermin. He lay on
+                                                        his
+                                                        armour-like back, and if he lifted his head a little he could
+                                                        see
+                                                        his brown belly, slightly domed and divided by arches into stiff
+                                                        sections.</p>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-blockquote float-xs-right">
+                                            <div class="float-xs-right img-blockkquote">
+                                                <img alt="image" src="../../../assets/global/image/img_350x233.png">
+                                            </div>
+                                            <div class="float-xs-right detail-blockquote">
+                                                <h5 class="text-xs-right">Shane Handcomb</h5>
+                                                <h6 class="text-xs-right">Web Developer</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" id="modern-blockquote-code" class="tab-pane pre-code">
+                                        <div data-plugin="custom-scroll" data-min="300" data-height="150">
+                                            <div>
+                                                            <pre>&lt;div class=&quot;modern-section&quot;&gt;
+    &lt;div class=&quot;<b>modern-blockquote</b>&quot;&gt;
+        <b>&lt;blockquote&gt;</b>
+            &lt;p&gt;Content here...&lt;/p&gt;
+        <b>&lt;/blockquote&gt;</b>
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;bottom-blockquote float-xs-right&quot;&gt;
+    &lt;div class=&quot;float-xs-right img-blockkquote&quot;&gt;
+        &lt;img alt=&quot;image&quot; src=&quot;user image&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;float-xs-right detail-blockquote&quot;&gt;
+        &lt;h5 class=&quot;text-xs-right&quot;&gt;Shane Handcomb&lt;/h5&gt;
+        &lt;h6 class=&quot;text-xs-right&quot;&gt;Web Developer&lt;/h6&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  END MODERN BLOCKQUOTE SECTION -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content content-blockquote">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="nav-tab-horizontal">
+                                <!--  START SINGLE BLOCKQUOTE SECTION -->
+                                <ul role="tablist" class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a role="tab" href="#single-blockquote-output" data-toggle="tab"
+                                           class="nav-link active flat-buttons">Output</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" href="#single-blockquote-code" data-toggle="tab"
+                                           class="nav-link flat-buttons">Code</a>
+                                    </li>
+                                </ul>
+                                <div class="divider15"></div>
+                                <h4 class="page-content-title">Single blockquote</h4>
+                                <div class="tab-content">
+                                    <div role="tabpanel" id="single-blockquote-output" class="tab-pane active">
+                                        <p>Use <code>single-blockquote-section</code> to tag any text as the quote for
+                                            simple quotes. </p>
+                                        <div class="single-blockquote-section">
+                                            <blockquote>
+                                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found
+                                                    himself transformed in his bed into a horrible vermin. He lay on his
+                                                    armour-like back, and if he lifted his head a little he could see
+                                                    his brown belly, slightly domed and divided by arches into stiff
+                                                    sections. The bedding was hardly able to cover it and seemed ready
+                                                    to slide off any moment. His many legs.</p>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" id="single-blockquote-code" class="tab-pane pre-code">
+                                        <div data-plugin="custom-scroll" data-min="300" data-height="160">
+                                            <div>
+                                                            <pre>&lt;div class=&quot;<b>single-blockquote-section</b>&quot;&gt;
+    <b>&lt;blockquote&gt;</b>
+        &lt;p&gt;Content here...&lt;/p&gt;
+    <b>&lt;/blockquote&gt;</b>
+&lt;/div&gt;</pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  END SINGLE BLOCKQUOTE SECTION -->
+                            </div>
+                        </div>
+                        <div class="divider-lg-spacing divider-xs-spacing"></div>
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="nav-tab-horizontal">
+                                <!--  START DOUBLE BLOCKQUOTE SECTION -->
+                                <ul role="tablist" class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a role="tab" href="#double-blockquote-output" data-toggle="tab"
+                                           class="nav-link active flat-buttons">Output</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" href="#double-blockquote-code" data-toggle="tab"
+                                           class="nav-link flat-buttons">Code</a>
+                                    </li>
+                                </ul>
+                                <div class="divider15"></div>
+                                <h4 class="page-content-title">Double blockquote</h4>
+                                <div class="tab-content">
+                                    <div role="tabpanel" id="double-blockquote-output" class="tab-pane active">
+                                        <p>Use <code>double-blockquote-section</code> to tag any text as the quote for
+                                            simple quotes. </p>
+                                        <div class="single-blockquote-section double-blockquote-section">
+                                            <blockquote>
+                                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found
+                                                    himself transformed in his bed into a horrible vermin. He lay on his
+                                                    armour-like back, and if he lifted his head a little he could see
+                                                    his brown belly, slightly domed and divided by arches into stiff
+                                                    sections. The bedding was hardly able to cover it and seemed ready
+                                                    to slide off any moment. His many legs.</p>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" id="double-blockquote-code" class="tab-pane pre-code">
+                                        <div data-plugin="custom-scroll" data-min="300" data-height="160">
+                                            <div>
+                                                            <pre>&lt;div class=&quot;single-blockquote-section <b>double-blockquote-section</b>&quot;&gt;
+    <b>&lt;blockquote&gt;</b>
+        &lt;p&gt;Content here...&lt;/p&gt;
+    <b>&lt;/blockquote&gt;</b>
+&lt;/div&gt;</pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  END DOUBLE BLOCKQUOTE SECTION -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content content-blockquote">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <!--  START IMAGE WITH BLOCKQUOTE SECTION -->
+                            <h4 class="page-content-title">Image with blockquote</h4>
+                            <p>Display blockquote with image.</p>
+                            <div class="image-blockquote alert-warning">
+                                <div class="img-blockquote"><img src="../../../assets/global/image/img_350x233.png"
+                                                                 alt="image"/></div>
+                                <blockquote>
+                                    <p class="text-xs-center">One morning, when Gregor Samsa woke from troubled
+                                        dreams, he found
+                                        himself transformed in his bed into a horrible vermin.
+                                    </p>
+                                    <div class="border-blockquote"></div>
+                                    <h5 class="text-xs-center">Shane Handcomb</h5>
+                                    <h6 class="text-xs-center">Web Developer</h6>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <!--  END IMAGE WITH BLOCKQUOTE SECTION -->
+                        <div class="divider-lg-spacing divider-xs-spacing"></div>
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="pre-code">
+                                <div data-plugin="custom-scroll" data-min="300" data-height="370">
+                                    <div>
+                                                            <pre>&lt;div class=&quot;image-blockquote alert-warning&quot;&gt;
+    <b>&lt;div class=&quot;img-blockquote&quot;&gt;&lt;img src=&quot;image path&quot; alt=&quot;image&quot; /&gt;</b>
+    &lt;/div&gt;
+    <b>&lt;blockquote&gt;</b>
+        &lt;p class=&quot;text-xs-center&quot;&gt;Content here...
+        &lt;/p&gt;
+        &lt;div class=&quot;border-blockquote&quot;&gt;&lt;/div&gt;
+        &lt;h5 class=&quot;text-xs-center&quot;&gt;Shane Handcomb&lt;/h5&gt;
+        &lt;h6 class=&quot;text-xs-center&quot;&gt;Web Developer&lt;/h6&gt;
+    <b>&lt;/blockquote&gt;</b>
+&lt;/div&gt;</pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="content content-blockquote">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="nav-tab-horizontal">
+                                <!--  START BLOCKQUOTE WITH SQUARE BRACKET SECTION -->
+                                <ul role="tablist" class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a role="tab" href="#square-blockquote-output" data-toggle="tab"
+                                           class="nav-link active flat-buttons">Output</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" href="#square-blockquote-code" data-toggle="tab"
+                                           class="nav-link flat-buttons">Code</a>
+                                    </li>
+                                </ul>
+                                <div class="divider15"></div>
+                                <h4 class="page-content-title">Blockquote with square bracket</h4>
+                                <div class="tab-content">
+                                    <div role="tabpanel" id="square-blockquote-output" class="tab-pane active">
+                                        <p>You can display blockquote with square bracket style.</p>
+                                        <div class="square-bracket-blockquote alert-info">
+                                            <blockquote>
+                                                <p class="text-xs-center">The European languages are members of the same
+                                                    family. Their separate existence is a myth. For science, music,
+                                                    sport, etc, Europe uses the same vocabulary. The languages only
+                                                    differ in their grammar, their pronunciation and their most common
+                                                    words. Everyone realizes why a new common language would be
+                                                    desirable: one could refuse to pay expensive translators. To achieve
+                                                    this, it would be necessary to have uniform grammar, pronunciation
+                                                    and more common words. several languages coalesce
+                                                </p>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" id="square-blockquote-code" class="tab-pane pre-code">
+                                        <div data-plugin="custom-scroll" data-min="300" data-height="162">
+                                            <div>
+                                                            <pre>&lt;div class=&quot;<b>square-bracket-blockquote alert-info</b>&quot;&gt;
+    <b>&lt;blockquote&gt;</b>
+        &lt;p class=&quot;text-xs-center&quot;&gt;Content here...
+        &lt;/p&gt;
+    <b>&lt;/blockquote&gt;</b>
+&lt;/div&gt;</pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  END BLOCKQUOTE WITH SQUARE BRACKET SECTION -->
+                            </div>
+                        </div>
+                        <div class="divider-lg-spacing divider-xs-spacing"></div>
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="nav-tab-horizontal">
+                                <!--  START BLOCKQUOTE WITH CURLY BRACKET SECTION -->
+                                <ul role="tablist" class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a role="tab" href="#curly-blockquote-output" data-toggle="tab"
+                                           class="nav-link active flat-buttons">Output</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" href="#curly-blockquote-code" data-toggle="tab"
+                                           class="nav-link flat-buttons">Code</a>
+                                    </li>
+                                </ul>
+                                <div class="divider15"></div>
+                                <h4 class="page-content-title">Blockquote with curly bracket</h4>
+                                <div class="tab-content">
+                                    <div role="tabpanel" id="curly-blockquote-output" class="tab-pane active">
+                                        <p>Display blockquote in curly bracket style.</p>
+                                        <div class="curly-bracket-blockquote alert-success">
+                                            <blockquote>
+                                                <p class="text-xs-center">The European languages are members of the same
+                                                    family. Their separate existence is a myth. For science, music,
+                                                    sport, etc, Europe uses the same vocabulary. The languages only
+                                                    differ in their grammar, their pronunciation and their most common
+                                                    words. Everyone realizes why a new common language would be
+                                                    desirable: one could refuse to pay expensive translators. To achieve
+                                                    this, it would be necessary to have uniform grammar, pronunciation
+                                                    and more common words. several languages coalesce
+                                                </p>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" id="curly-blockquote-code" class="tab-pane pre-code">
+                                        <div data-plugin="custom-scroll" data-min="300" data-height="162">
+                                            <div>
+                                                            <pre>&lt;div class=&quot;<b>curly-bracket-blockquote alert-success</b>&quot;&gt;
+    <b>&lt;blockquote&gt;</b>
+        &lt;p class=&quot;text-xs-center&quot;&gt;Content here...&lt;/p&gt;
+    <b>&lt;/blockquote&gt;</b>
+&lt;/div&gt;</pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  END BLOCKQUOTE WITH CURLY BRACKET SECTION -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END RIGHT CONTENT -->
+        </div>
+    </section>
+    <!-- END CONTENT -->
+    <!-- START FOOTER -->
+    <footer id="footer">
+        Copyright&copy; 2017, All Rights Reserved.
+    </footer>
+    <!-- END FOOTER -->
+    <!-- START SIDE SETTING -->
+    <div class="right-side-bar">
+    <div class="float-xs-left icon-right site-setting-animation how-it-works">
+        <div id="site_setting_icon" class="animation">
+            <img src="../../../assets/global/image/site-setting-icon.png" alt="" class="icon1" />
+            <img src="../../../assets/global/image/site-setting-icon.png" alt="" class="icon2">
+            <img src="../../../assets/global/image/site-setting-icon.png" alt="" class="icon3">
+        </div>
+    </div>
+
+    <div class="right-side-box float-xs-right" data-plugin="custom-scroll" data-height="100%">
+        <div class="right-side-inner-box">
+            <div class="globle-right-content">
+                <h5><span class="icon_box-selected" aria-hidden="true"></span> Colors</h5>
+                <div class="settings-sidebox site-color">
+                    <div class="color-inner-box default-color flat-buttons color-active" data-color="default" data-color-code="#087380"></div>
+                    <div class="color-inner-box golden-color flat-buttons" data-color="golden" data-color-code="#F3C200"></div>
+                    <div class="color-inner-box soft-orange-color flat-buttons" data-color="soft-orange" data-color-code="#F2784B"></div>
+                    <div class="color-inner-box dodger-blue-color flat-buttons" data-color="dodger-blue" data-color-code="#039be5"></div>
+                    <div class="color-inner-box bright-pink-color flat-buttons" data-color="bright-pink" data-color-code="#ec407a"></div>
+                    <div class="color-inner-box light-red-color flat-buttons" data-color="light-red" data-color-code="#eb6d6d"></div>
+                    <div class="color-inner-box purple-color flat-buttons" data-color="purple" data-color-code="#6d5cae"></div>
+                    <div class="color-inner-box spice-color flat-buttons" data-color="spice" data-color-code="#6d4c41"></div>
+                </div>
+            </div>
+            <div class="globle-right-content">
+                <h5 class="default"><span class="icon_box-selected" aria-hidden="true"></span> Template</h5>
+                <div class="settings-sidebox">
+                    <span class="dark-color">Light</span>
+                    <div class="texture-switch dark-color-switch">
+                        <input type="checkbox" class="js-switch site-dark-check" data-plugin="switchery" data-switchery="true" data-size="small"/>
+                    </div>
+                </div>
+            </div>
+            <div class="globle-right-content">
+                <h5 class="default"><span class="icon_box-selected" aria-hidden="true"></span> Navigation</h5>
+                <div class="settings-sidebox">
+                    <span class="nav-dark-color">Dark</span>
+                    <div class="texture-switch nav-color-switch">
+                        <input type="checkbox" class="js-switch nav-dark-check" data-plugin="switchery" data-switchery="true" data-size="small"/>
+                    </div>
+                </div>
+                <div class="settings-sidebox">
+                    <span class="nav-fixed-text">Fixed</span>
+                    <div class="texture-switch nav-fixed-switch">
+                        <input type="checkbox" class="js-switch nav-fixed-check" data-plugin="switchery" data-switchery="true" data-size="small"/>
+                    </div>
+                </div>
+            </div>
+            <div class="globle-right-content">
+                <h5 class="default"><span class="icon_box-selected" aria-hidden="true"></span> Footer</h5>
+                <div class="settings-sidebox">
+                    <span class="footer-check-text">Default</span>
+                    <div class="texture-switch footer-fixed-switch">
+                        <input type="checkbox" class="js-switch footer-fixed-check" data-plugin="switchery" data-switchery="true" data-size="small"/>
+                    </div>
+                </div>
+            </div>
+            <div class="globle-right-content">
+                <h5><span class="icon_box-selected" aria-hidden="true"></span> Fonts</h5>
+                <div class="settings-sidebox site-fonts">
+                    <div class="font-box"><label for="font-radio-button1">Default</label><label class="radio-button float-xs-right">
+                            <input value="default" id="font-radio-button1" name="font" type="radio" checked>
+                            <label class="radio-check" for="font-radio-button1"></label>
+                        </label></div>
+                    <div class="font-box"><label for="font-radio-button2">PT Sans</label><label class="radio-button float-xs-right">
+                            <input value="font2" id="font-radio-button2" name="font" type="radio">
+                            <label class="radio-check" for="font-radio-button2"></label>
+                        </label></div>
+                    <div class="font-box"><label for="font-radio-button3">Open Sans</label><label class="radio-button float-xs-right">
+                            <input value="font3" id="font-radio-button3" name="font" type="radio">
+                            <label class="radio-check" for="font-radio-button3"></label>
+                        </label></div>
+                </div>
+            </div>
+            <div class="globle-right-content">
+                <h5><span class="icon_box-selected" aria-hidden="true"></span> System</h5>
+                <div class="settings-sidebox">
+                    <ul class="list-unstyled">
+                        <li>
+                            <span class="system-option"><i class="icon_lock"></i> Last Login</span>
+                            <span class="time float-xs-right">2h ago</span>
+                        </li>
+                        <li>
+                            <span class="system-option"><i class="icon_calendar"></i> Our Task</span>
+                            <span class="time float-xs-right">06</span>
+                        </li>
+                        <li>
+                            <span class="system-option"><i class="icon_cloud_alt"></i> Weather Today</span>
+                            <span class="time float-xs-right">32c</span>
+                        </li>
+                        <li>
+                            <span class="system-option"><i class="icon_comment_alt"></i> Notifications</span>
+                            <span class="time float-xs-right">10</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- END SIDE SETTING -->
+</div>
+
+<!-- START CORE JAVASCRIPT -->
+<script type="text/javascript" src="../../../assets/global/plugins/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="../../../assets/global/plugins/tether/dist/js/tether.min.js"></script>
+<script type="text/javascript" src="../../../assets/global/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../assets/global/plugins/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
+<script type="text/javascript" src="../../../assets/global/plugins/switchery/dist/switchery.min.js"></script>
+<script type="text/javascript" src="../../../assets/global/plugins/screenfull.js/dist/screenfull.min.js"></script>
+<script type="text/javascript" src="../../../assets/global/plugins/Waves/dist/waves.min.js"></script>
+<script src="../../../assets/global/plugins/classie/classie.js"></script>
+<!-- END CORE JAVASCRIPT -->
+
+
+<!-- START GLOBAL JAVASCRIPT -->
+<script type="text/javascript" src="../../../assets/global/js/site.min.js"></script>
+<script type="text/javascript" src="../../../assets/global/js/site-settings.min.js"></script>
+<!-- END GLOBAL JAVASCRIPT -->
+
+
+<!-- START THEME LAYOUT JAVASCRIPT -->
+<script type="text/javascript" src="../../../assets/layouts/layout-left-menu/js/layout.min.js"></script>
+<!-- END THEME LAYOUT JAVASCRIPT -->
+
+</body>
+</html>

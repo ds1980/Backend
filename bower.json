@@ -1,0 +1,33 @@
+{
+  "name": "sass",
+  "authors": [
+    "authors"
+  ],
+  "main": "sf",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests",
+    "assets/global/plugins"
+  ],
+  "dependencies": {
+    "perfect-scrollbar": "^0.6.15",
+    "datetimepicker": "https://github.com/xdan/datetimepicker.git#^2.5.4"
+  },
+  "description": "sdfsa",
+  "keywords": [
+    "sfa"
+  ],
+  "resolutions": {
+    "progressbar.js": "^1.0.1",
+    "perfect-scrollbar": "^0.6.15",
+    "angular": "1.x",
+    "chartist": "^0.9.4",
+    "jquery": ">=1.7.0"
+  }
+}
