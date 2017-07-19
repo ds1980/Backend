@@ -401,10 +401,6 @@ button:focus {
 
 .content {
   background: #FFFFFF;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 4px    ;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 4px    ;
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 4px    ;
@@ -475,7 +471,9 @@ button:focus {
   width: 100%; }
 
 .page-content-title {
-  font-size: 20px; }
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: #1d97c3; }
 
 .modal-backdrop {
   z-index: 9999; }
@@ -11639,7 +11637,7 @@ NAV PAGE STYLE
 
 .wrapper .basic_nav_pills .nav .nav-item .nav-link {
   font-size: 15px;
-  background: #eeeeee;
+  background: none;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -11650,10 +11648,8 @@ NAV PAGE STYLE
     cursor: pointer;
     line-height: 25px; }
 
-.wrapper .basic_nav_pills .nav .nav-item.open .nav-link {
+.wrapper .basic_nav_pills .nav .nav-item.open .nav-link:hover, .wrapper .basic_nav_pills .nav .nav-item.open .nav-link:focus {
   background: #eeeeee; }
-  .wrapper .basic_nav_pills .nav .nav-item.open .nav-link:hover, .wrapper .basic_nav_pills .nav .nav-item.open .nav-link:focus {
-    background: #eeeeee; }
 
 .wrapper .basic_nav_pills .nav .nav-item .dropdown-menu {
   padding: 0;
@@ -19727,7 +19723,8 @@ DASHBOARD 4 PAGE STYLE
 
 /*project list*/
 .dashboard_v4_project_list.content {
-  margin: 0 0 20px 0; }
+  margin: 0 0 20px 0;
+  padding-top: 10px; }
 
 /*daily visiter chart*/
 .dashboard_v4_chart {

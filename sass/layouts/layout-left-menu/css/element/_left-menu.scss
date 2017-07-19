@@ -314,9 +314,17 @@ body.menu-overlay {
   }
 }
 
-#sidebar .menu-title {
-  padding-left: $spacing-10;
-  padding-top: $spacing-0;
+#sidebar  {
+  .menu-title{
+      padding-left: $spacing-10;
+      padding-top: $spacing-0;
+      &:hover{
+        background:$sidebar-hover-background;
+      }
+  &.active{
+    background:$sidebar-hover-background;
+  }
+  }
 }
 
 .sidebar-menu {

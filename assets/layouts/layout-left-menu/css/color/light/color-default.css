@@ -492,9 +492,9 @@
   color: #1b97c3; }
 
 .wrapper .basic_nav_pills .nav .nav-item .nav-link {
-  color: #1b97c3; }
+  /*color: $sidebar-hover-background;*/ }
   .wrapper .basic_nav_pills .nav .nav-item .nav-link.active {
-    background: #1b97c3; }
+    background: none; }
     .wrapper .basic_nav_pills .nav .nav-item .nav-link.active:hover, .wrapper .basic_nav_pills .nav .nav-item .nav-link.active:focus {
       background: #1b97c3; }
 

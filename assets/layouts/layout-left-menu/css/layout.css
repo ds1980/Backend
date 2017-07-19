@@ -44,7 +44,8 @@
   z-index: 9999; }
 
 .header-left {
-  width: 300px; }
+  width: 260px;
+  background: #f1f1f1; }
 
 .logo {
   margin: 10px 0 10px 0;
@@ -835,6 +836,10 @@ body.menu-overlay .left-menu-toggle {
 #sidebar .menu-title {
   padding-left: 10px;
   padding-top: 0; }
+  #sidebar .menu-title:hover {
+    background: #1d97c3; }
+  #sidebar .menu-title.active {
+    background: #1d97c3; }
 
 .sidebar-menu {
   height: calc(100% - 110px); }
@@ -1190,3 +1195,55 @@ body:not(.nav-menu-icon).nav-light .site-menu .menu-title .main-menu li::after {
   /*---- Header And Breadcrumb  ----*/ }
 
 /*---- END RESPONSIVE ----*/
+.content {
+  border-radius: 0px;
+  padding: 0px; }
+
+.dashboard-header {
+  border-bottom: 1px solid #dedede;
+  padding-left: 15px;
+  margin-bottom: 20px; }
+
+.add_new_user_view .element-form label {
+  font-weight: bold;
+  padding-top: 10px; }
+
+.add_new_user_view .element-form input {
+  border-radius: 4px; }
+
+.add_new_user_view .site-btn {
+  border-radius: 4px; }
+
+.add_new_user_view .cancel_btn {
+  background: #444b4d; }
+
+.content.libraries_view {
+  border-top: 0px; }
+  .content.libraries_view .action-vieworder .nav-tabs {
+    border-bottom: 2px solid #1d97c3; }
+    .content.libraries_view .action-vieworder .nav-tabs .nav-item {
+      margin: 0px 0px 0px 2px;
+      padding: 0px; }
+      .content.libraries_view .action-vieworder .nav-tabs .nav-item:first-child {
+        margin-left: 0; }
+      .content.libraries_view .action-vieworder .nav-tabs .nav-item a {
+        font-weight: 600;
+        color: #000; }
+      .content.libraries_view .action-vieworder .nav-tabs .nav-item .active {
+        background: #1d97c3;
+        color: #ffffff; }
+  .content.libraries_view .action-vieworder .tab-content {
+    padding: 0 10px; }
+    .content.libraries_view .action-vieworder .tab-content table thead tr th {
+      background: #d2d2d2;
+      color: #000000;
+      text-align: center; }
+    .content.libraries_view .action-vieworder .tab-content table tbody tr td {
+      text-align: center; }
+  .content.libraries_view .action-vieworder .cost_code_view a {
+    margin: 0px; }
+  .content.libraries_view .action-vieworder .cost_code_view .cost_type {
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+    vertical-align: middle; }

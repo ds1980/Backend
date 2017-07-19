@@ -48,7 +48,7 @@ button:focus {
 
 .content {
   background: $white-background-color;
-  @include border-radius($border-radius-4);
+
   @include multi-box-shadow(rgba($black-background-color, 0.2) 0 0 4px);
   margin: $spacing-20;
   padding: $spacing-20;
@@ -132,6 +132,9 @@ button:focus {
 
 .page-content-title {
   font-size: 20px;
+  padding-bottom:10px;
+  color:$sidebar-hover-background;
+  
 }
 
 .modal-backdrop {

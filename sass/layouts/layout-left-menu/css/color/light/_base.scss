@@ -864,9 +864,9 @@
     .nav {
       .nav-item {
         .nav-link {
-          color: $base-text-color;
+          /*color: $sidebar-hover-background;*/
           &.active {
-            background: $base-color;
+            background: none;
             &:hover, &:focus {
               background: $base-color;
             }

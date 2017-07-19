@@ -14,7 +14,7 @@ NAV PAGE STYLE
       .nav-item {
         .nav-link {
           font-size: 15px;
-          background: $nav-background-color;
+          background: none;
           @include border-radius($border-radius-0);
           &.active {
             color: $white-text-color;
@@ -25,7 +25,7 @@ NAV PAGE STYLE
         }
         &.open {
           .nav-link {
-            background: $nav-background-color;
+           
             &:hover, &:focus {
               background: $nav-background-color;
             }

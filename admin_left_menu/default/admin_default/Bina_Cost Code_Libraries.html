@@ -20,9 +20,9 @@
     <!-- START GLOBAL CSS -->
     <link rel="stylesheet" href="../../../assets/global/plugins/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../../../assets/icons_fonts/elegant_font/elegant.min.css" />
-    <link id="site-color" rel="stylesheet" href="../../../assets/layouts/layout-left-menu/css/color/light/color-default.min.css" />
-    <link rel="stylesheet" href="../../../assets/global/plugins/switchery/dist/switchery.min.css" />
-    <link rel="stylesheet" href="../../../assets/global/plugins/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+    <link id="site-color" rel="stylesheet" href="../../../assets/layouts/layout-left-menu/css/color/light/color-default.css" />
+    <link rel="stylesheet" href="../../../assets/global/plugins/switchery/dist/switchery.css" />
+    <link rel="stylesheet" href="../../../assets/global/plugins/perfect-scrollbar/css/perfect-scrollbar.css" />
     <!-- END GLOBAL CSS -->
     <!-- START PAGE PLUG-IN CSS -->
     <link rel="stylesheet" href="../../../assets/global/plugins/font-awesome/css/font-awesome.min.css" />
@@ -31,10 +31,10 @@
     <link rel="stylesheet" href="../../../assets/global/plugins/rickshaw/rickshaw.min.css" />
     <!-- END PAGE PLUG-IN CSS -->
     <!-- START TEMPLATE GLOBAL CSS -->
-    <link rel="stylesheet" href="../../../assets/global/css/components.min.css" />
+    <link rel="stylesheet" href="../../../assets/global/css/components.css" />
     <!-- END TEMPLATE GLOBAL CSS -->
     <!-- START LAYOUT CSS -->
-    <link rel="stylesheet" href="../../../assets/layouts/layout-left-menu/css/layout.min.css" />
+    <link rel="stylesheet" href="../../../assets/layouts/layout-left-menu/css/layout.css" />
     <!-- END LAYOUT CSS -->
 </head>
 
@@ -182,7 +182,7 @@
                     </div>
                     <!-- END PAGE TITLE -->
                     <!--  START Chartist CHART -->
-                    <div class="content datatable-width">
+                    <div class="content datatable-width libraries_view">
                     <div class="action-vieworder">
 
                         <div class="nav-tab-horizontal">
@@ -217,15 +217,10 @@
                             <div class="tab-content">
                                 <div class="tab-pane active btn-margin" id="employeelibrary" role="tabpanel">
                                     <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="col-md-4 col-sm-4 col-xs-12">
-                                            <a href="#" class="btn btn-info">Add Cost Code</a>
-                                        </div>
-                                        <div class="col-md-4 col-sm-4 col-xs-12">
-                                            <a href="#" class="btn btn-info">Import Cost Code</a>
-                                        </div>
-                                        <div class="col-md-4 col-sm-4 col-xs-12">
-                                            <div class="form-group">
+                                    <div class="col-lg-6 cost_code_view">
+                                        <a href="#" class="btn btn-info">Add Cost Code</a>
+                                        <a href="#" class="btn btn-info cancel_btn">Import Cost Code</a>
+                                        <div class="form-group cost_type">
                                             <select class="form-control">
                                                 <option>1</option>
                                                 <option>2</option>
@@ -234,10 +229,6 @@
                                                 <option>5</option>
                                             </select>
                                         </div>
-                                        </div>
-                                        
-                                        
-                                        
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">

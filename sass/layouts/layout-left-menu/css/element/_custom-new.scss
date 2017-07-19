@@ -1,0 +1,83 @@
+.content{
+	border-radius: 0px;
+	padding: 0px;
+}
+.dashboard-header{
+	border-bottom: 1px solid #dedede;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+.add_new_user_view{
+	.element-form{
+		label{
+			font-weight: bold;
+			padding-top: 10px;
+		}
+		input{
+			border-radius: 4px;
+		}
+	}
+	.site-btn{
+		border-radius: 4px;
+	}
+	.cancel_btn{
+		background: #444b4d;
+	}
+}
+.content.libraries_view{
+	border-top:0px ;
+	.action-vieworder{
+		.nav-tabs{
+			border-bottom: 2px solid #1d97c3;
+			.nav-item{
+				margin:0px 0px 0px 2px;
+				padding: 0px;
+				&:first-child{
+					margin-left:0;
+				}
+				a{
+					font-weight: 600;
+					color:#000;
+				}
+				.active{
+					background: #1d97c3;
+					color: #ffffff;
+					
+				}
+			}
+		}
+		.tab-content{
+			padding: 0 10px;
+			 table{
+			 	thead{
+			 		tr{
+			 			th{
+			 				background: #d2d2d2;
+			 				color: #000000;
+			 				text-align: center;
+			 			}
+			 		}
+			 	}
+			 	tbody{
+			 		tr{
+			 			td{
+			 				text-align: center;
+			 			}
+			 		}
+			 	}
+			 }
+		}
+		.cost_code_view{
+			a{
+				margin: 0px;
+
+			}
+			.cost_type{
+				display: inline-block;
+				width: 40%;
+				margin: 0;
+    			vertical-align: middle;
+			}
+		}
+	}
+}
